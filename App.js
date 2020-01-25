@@ -43,7 +43,7 @@ export default function App() {
         onPress={() => {
           updateCounter(counter + 1);
         }} 
-        title="Increment" 
+        title="Increment from React Native" 
       />
       <Text>Native code counter value</Text>
       <Text>{counter}</Text>
